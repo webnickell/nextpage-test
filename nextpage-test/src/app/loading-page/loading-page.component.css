@@ -1,0 +1,66 @@
+#back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+
+    background: radial-gradient(48.18% 24.84% at 50% 50%, #2A0227 0%, #170119 100%);
+
+    justify-content: center;
+    align-items: center;
+}
+
+#num {
+
+    position: relative;
+    
+    top: 18%;
+
+    font-family: Archivo Black;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25.694vmax;
+    line-height: 403px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: rgba(100, 60, 90, 0.2);
+   
+}
+
+#model {
+    position: absolute;
+    width: 14%;
+    height: 35%;
+    left: 43%;
+    top: 34%;
+
+    background: url('/assets/images/loading/camera.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: drop-shadow(-15px 10px 20px rgba(20, 4, 24, 0.400514));
+
+    z-index: 1000;
+}
+
+#loading {
+    
+    position: relative;
+    
+    top: 40%;
+
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.972vmax;
+    line-height: 15px;
+    text-transform: uppercase;
+    text-align: center;
+
+    color: #F9A608;
+
+}

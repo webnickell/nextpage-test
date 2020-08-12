@@ -6,7 +6,13 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./contact-us-button.component.css']
 })
 export class ContactUsButtonComponent implements OnInit {
-  @Input() isDarkTheme: boolean = true;
+  @Input() set isDarkTheme(val: boolean) {
+    if (val) {
+
+    } else {
+
+    }
+  }
   constructor() { }
 
   ngOnInit() {

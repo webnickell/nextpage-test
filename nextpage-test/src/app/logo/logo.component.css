@@ -1,0 +1,11 @@
+#logo {
+    position: absolute;
+    width: 6%;
+    height: 3%;
+    left: 4%;
+    top: 5%;
+
+    background: url('/assets/images/logo.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}

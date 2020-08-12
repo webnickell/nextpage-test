@@ -1,0 +1,124 @@
+#back {
+    position: absolute;
+    width: 100%;
+    height: 120%;
+    left: 0px;
+    top: 0px;
+
+    background: #FFECEE;
+}
+
+#torus {
+    position: fixed;
+    width: 17%;
+    height: 22%;
+    left: 27%;
+    top: 1%;
+
+    background: url('/assets/images/continue-page/torus.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: drop-shadow(-24px 27px 17px rgba(181, 103, 7, 0.142401));
+}
+
+#youtube {
+    position: fixed;
+    width: 10%;
+    height: 13%;
+    left: 77%;
+    top: 48%;
+
+    background: url('/assets/images/continue-page/youtube.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: drop-shadow(-24px 27px 17px rgba(93, 50, 49, 0.0836975));
+}
+
+#sphere {
+    position: fixed;
+    width: 10%;
+    height: 13%;
+    left: 30%;
+    top: 80%;
+
+    background: url('/assets/images/continue-page/sphere.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: drop-shadow(-24px 27px 17px rgba(128, 120, 110, 0.142401));
+}
+
+#clients-text {
+    position: absolute;
+    width: 194px;
+    height: 80px;
+    left: 55px;
+    top: 134px;
+
+    font-family: Archivo Black;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+
+    text-transform: uppercase;
+
+    /* or 100% */
+
+
+    color: #383030;
+
+}
+
+#description-text {
+    position: absolute;
+    width: 323px;
+    height: 81px;
+    left: 55px;
+    top: 236px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+
+    color: #643C5A;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+#view-text {
+    position: absolute;
+    width: 148px;
+    height: 26px;
+    left: 57px;
+    top: 308px;
+
+    font-family: Archivo Black;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 26px;
+    /* identical to box height, or 217% */
+
+    letter-spacing: 0.428571px;
+    text-transform: uppercase;
+
+    color: #D2132A;
+
+}
+
+#images-container {
+
+}
+
+.tape {
+
+}
+
+.offset {
+    
+}
