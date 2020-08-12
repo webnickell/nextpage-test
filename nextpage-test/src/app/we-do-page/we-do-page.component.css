@@ -1,0 +1,73 @@
+#back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+
+    background: radial-gradient(48.18% 24.84% at 50% 50%, #2A0227 0%, #170119 100%);
+
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.menu-item {
+    position: absolute;
+    width: 173px;
+    height: 174px;
+    left: 418px;
+    top: 1402px;
+
+    background: rgba(100, 60, 90, 0.2);
+    border-radius: 12px;
+}
+
+.menu-item:hover {
+    background: linear-gradient(318.4deg, #B10217 8.31%, #DD041F 69.98%);
+}
+
+#learn-more {
+    position: absolute;
+    width: 148px;
+    height: 26px;
+    left: 929px;
+    top: 1610px;
+
+    font-family: Archivo Black;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 26px;
+    /* identical to box height, or 217% */
+
+    text-align: center;
+    letter-spacing: 0.428571px;
+    text-transform: uppercase;
+
+    color: #D2132A;
+}
+
+#description {
+    position: absolute;
+    width: 362px;
+    height: 108px;
+    left: 822px;
+    top: 1502px;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+    /* or 128% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
