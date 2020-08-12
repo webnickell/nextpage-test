@@ -1,0 +1,281 @@
+.models {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#lettering {
+    position: absolute;
+    width: 48%;
+    height: 30%;
+    left: 33%;
+    top: 42%;
+
+    background-image: url('/assets/images/lettering.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    filter: drop-shadow(24px -30px 20px rgba(97, 8, 15, 0.456102));
+}
+
+#youtube {
+    position: absolute;
+    width: 14%;
+    height: 26%;
+    left: 70%;
+    top: 7%;
+
+    background: url('/assets/images/youtube.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: blur(1.35914px), drop-shadow(-24px -10px 20px rgba(97, 9, 8, 0.17));
+}
+
+#camera {
+    position: absolute;
+    width: 16%;
+    height: 35%;
+    left: 8%;
+    top: 55%;
+
+    background: url('/assets/images/camera.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: drop-shadow(-15px 10px 20px rgba(20, 4, 24, 0.38833));
+}
+
+#note {
+    position: absolute;
+    width: 5%;
+    height: 9%;
+    left: 27%;
+    top: 83%;
+
+    background: url('/assets/images/note.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: drop-shadow(-24px -10px 20px rgba(97, 9, 8, 0.174088));
+}
+
+#torus {
+    position: absolute;
+    width: 8%;
+    height: 10%;
+    left: 83%;
+    top: 78%;
+
+    background: url('/assets/images/torus.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: drop-shadow(-24px -10px 20px rgba(97, 9, 8, 0.174088));
+    transform: rotate(-5deg);
+}
+
+#headphone {
+    position: absolute;
+    width: 10%;
+    height: 25%;
+    left: 17%;
+    top: 14%;
+
+    background-image: url('/assets/images/headphone.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    filter: drop-shadow(-15px 10px 20px rgba(20, 4, 24, 0.400514));
+}
+
+#heart {
+    position: absolute;
+    width: 4%;
+    height: 7%;
+    left: 62%;
+    top: 76%;
+
+    background-image: url('/assets/images/heart.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    mix-blend-mode: normal;
+    opacity: 0.74;
+    filter: blur(16.3097px);
+    transform: rotate(-25deg);
+}
+
+#torus3 {
+    position: absolute;
+    width: 5%;
+    height: 10%;
+    left: 51%;
+    top: 20%;
+
+    background: url('/assets/images/torus3.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    mix-blend-mode: normal;
+    opacity: 0.78;
+    filter: blur(13.5914px);
+    transform: rotate(-28deg);
+}
+
+#spot {
+    position: absolute;
+    width: 2%;
+    height: 3%;
+    left: 12%;
+    top: 25%;
+
+    background: url('/assets/images/spot.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    mix-blend-mode: normal;
+    opacity: 0.48;
+    filter: blur(13.5914px);
+}
+
+#spot2 {
+    position: absolute;
+    width: 1%;
+    height: 2%;
+    left: 91%;
+    top: 44%;
+
+    background: url('/assets/images/spot2.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: blur(27.1828px);
+}
+
+#clapper {
+    position: absolute;
+    width: 19%;
+    height: 26%;
+    left: 72%;
+    top: 50%;
+
+    background: url('/assets/images/clapper.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#oval {
+    position: absolute;
+    width: 82%;
+    height: 132%;
+    left: 133px;
+    top: -133px;
+
+    background: radial-gradient(55.53% 33.64% at 50% 50%, rgba(255, 125, 150, 0.287806) 0%, rgba(245, 64, 137, 4e-05) 100%);
+    mix-blend-mode: normal;
+    opacity: 0.75;
+}
+
+#back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+
+    background: radial-gradient(48.18% 24.84% at 50% 50%, #2A0227 0%, #170119 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+}
+
+#creative-text {
+    position: relative;
+
+    top: 32%;
+    margin: auto;
+
+    font-family: Archivo Black;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10vmax;
+    line-height: 185px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFEFF6;
+
+}
+
+#practice-text {
+    position: relative;
+
+    top: 31%;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.833vmax;
+    line-height: 14px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+    text-align: center;
+
+    color: #F9A608;
+}
+
+#content-text {
+    position: relative;
+    top: 58%;
+    margin: auto;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.972vmax;
+    line-height: 15px;
+
+    text-align: center;
+
+    color: #643C5A;
+
+}
+
+#views-text {
+    position: relative;
+    top: 60%;
+    margin: auto;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.083vmax;
+    line-height: 33px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #F6F6F6;
+}
+
+#viewers-text {
+    position: relative;
+    
+    top: 61%;
+    margin: auto;
+
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.972vmax;
+    line-height: 15px;
+    text-transform: uppercase;
+
+    color: #F6F6F6;
+}
